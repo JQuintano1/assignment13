@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="33.0" prefWidth="471.0" text="Conversion Program" textAlignment="CENTER" />
+      <TextField fx:id="unit1" layoutX="266.0" layoutY="76.0" prefHeight="64.0" prefWidth="234.0" promptText="Enter First Unit" />
+      <TextField fx:id="unit2" layoutX="266.0" layoutY="168.0" prefHeight="64.0" prefWidth="234.0" promptText="Enter Second Unit" />
+      <TextField fx:id="unit1amount" layoutX="29.0" layoutY="76.0" prefHeight="64.0" prefWidth="234.0" promptText="Enter Amount" />
+      <Button fx:id="button" layoutX="195.0" layoutY="275.0" mnemonicParsing="false" onAction="#convert" prefHeight="52.0" prefWidth="136.0" text="Button" />
+      <TextArea fx:id="conversionresult" layoutX="29.0" layoutY="168.0" prefHeight="64.0" prefWidth="234.0" />
+   </children>
+</AnchorPane>
